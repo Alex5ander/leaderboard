@@ -6,11 +6,13 @@ package com.leaderboard.leaderboard;
 
 import java.util.List;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Aluno
  */
+@Repository
 public interface ScoreRepository extends MongoRepository<Score, String>{
     public List<Score> list();
 }
