@@ -10,7 +10,6 @@ public class LeaderboardApplication {
     @Autowired
     static ScoreRepository ScoreItem;
     public static void main(String[] args) {
-        ScoreItem.save(new Score(10));
         SpringApplication.run(LeaderboardApplication.class, args);
     }
 }
