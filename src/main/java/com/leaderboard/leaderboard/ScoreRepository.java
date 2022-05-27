@@ -11,6 +11,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  *
  * @author Cliente
  */
+
 public interface ScoreRepository extends MongoRepository<Score, String>{
-    List<Score> findAll();
+    
 }

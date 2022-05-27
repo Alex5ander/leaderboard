@@ -11,13 +11,13 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 public class LeaderboardApplication implements CommandLineRunner {
 
     @Autowired
-    static ScoreRepository ScoreItem;
+    ScoreRepository ScoreItem;
     public static void main(String[] args) {
         SpringApplication.run(LeaderboardApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-        ScoreItem.findAll();
+        System.out.println(ScoreItem.count());
     }
 }
