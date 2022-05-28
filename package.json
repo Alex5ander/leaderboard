@@ -1,6 +1,7 @@
 {
     "scripts": {
       "start": "java -jar target/*.jar"
+    //   "install": "echo 'compiling' && mvn package"
     }
   }
   
