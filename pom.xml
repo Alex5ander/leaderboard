@@ -15,7 +15,9 @@
 	<description>Placar pontuação</description>
 	<properties>
 		<java.version>11</java.version>
-                <start-class>com.leaderboard.leaderboard.LeaderboardApplication</start-class>
+        <start-class>com.leaderboard.leaderboard.LeaderboardApplication</start-class>
+		<!-- <maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target> -->
 	</properties>
 	<dependencies>
 		<dependency>
