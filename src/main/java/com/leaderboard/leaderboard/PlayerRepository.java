@@ -12,6 +12,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  * @author Cliente
  */
 
-public interface ScoreRepository extends MongoRepository<Score, String>{
+public interface PlayerRepository extends MongoRepository<Player, String>{
     
 }

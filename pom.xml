@@ -40,6 +40,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	 <dependency>
+	  <groupId>jakarta.persistence</groupId>
+	  <artifactId>jakarta.persistence-api</artifactId>
+	  <version>2.2.3</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.vaadin.external.google</groupId>
+	  <artifactId>android-json</artifactId>
+	  <version>0.0.20131108.vaadin1</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>net.minidev</groupId>
+	  <artifactId>json-smart</artifactId>
+	  <version>2.4.8</version>
+	  <type>jar</type>
+	 </dependency>
 	</dependencies>
 
 	<build>

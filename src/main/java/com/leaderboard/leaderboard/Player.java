@@ -1,15 +1,18 @@
 package com.leaderboard.leaderboard;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
-@Document(collection = "company")
-public class Score {
-    @Id
-    private final int id;
-    
-    public Score(int id) {
-        this.id = id;
-    }
+@Document
+public class Player {
+  public int score = 0;
+  public Player() {
+      
+  }
+  public Player(int score) {
+      this.score = score;
+  }
 }
